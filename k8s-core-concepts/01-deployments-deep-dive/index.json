@@ -1,0 +1,41 @@
+{
+  "title": "Deployments Deep Dive",
+  "description": "Master Kubernetes Deployments: rolling updates, rollback strategies, and deployment history for safe production releases.",
+  "details": {
+    "intro": {
+      "title": "Introduction",
+      "text": "intro/text.md",
+      "background": "intro/background.sh",
+      "foreground": "intro/foreground.sh"
+    },
+    "steps": [
+      {
+        "title": "Explore a Deployment",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Perform a Rolling Update",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      },
+      {
+        "title": "Bad Deploy — Rollback to the Rescue",
+        "text": "step3/text.md",
+        "verify": "step3/verify.sh"
+      },
+      {
+        "title": "Tune Your Rollout Strategy",
+        "text": "step4/text.md",
+        "verify": "step4/verify.sh"
+      }
+    ],
+    "finish": {
+      "title": "Well Done!",
+      "text": "finish/text.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  }
+}
